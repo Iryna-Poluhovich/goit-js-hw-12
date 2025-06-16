@@ -103,8 +103,8 @@ img {
   gap: 14px;
   margin-left: 156px;
   position: relative;
-  padding-bottom: 32px;
-}
+  }
+  
 .photo-card {
   display: flex;
   align-items: center;
@@ -166,6 +166,16 @@ img {
 .hidden {
   display: none !important;
 }
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 16px;
+  margin: 32px 0;
+}
+
 .loader{
    margin: 20px auto;
   border: 6px solid #f3f3f3;
