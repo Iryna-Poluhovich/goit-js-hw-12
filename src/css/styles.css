@@ -101,10 +101,10 @@ img {
   list-style: none;
   padding: 0;
   gap: 14px;
-  margin: 0 24px; */
+  margin: 0 24px;
   position: relative;
-  }
-  
+}
+
 .photo-card {
   display: flex;
   align-items: center;
@@ -146,17 +146,21 @@ img {
   color: #2e2f42;
 }
 
- @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .hidden {
   display: none !important;
 }
 
-.loader{
-   margin: 20px auto;
+.loader {
+  margin: 20px auto;
   border: 6px solid #f3f3f3;
   border-top: 6px solid #3498db;
   border-radius: 50%;
@@ -164,7 +168,6 @@ img {
   height: 50px;
   animation: spin 1s linear infinite;
 }
-
 
 .load-more {
   display: flex;
@@ -184,7 +187,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-    margin: 32px 0;
+  margin: 32px 0;
 }
 
 .load-more:hover {
